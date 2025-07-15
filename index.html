@@ -3,191 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Koga Seiya</title>
+    <title>ITポートフォリオ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <h2>Koga Seiya</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#about">プロフィール</a></li>
-                <li><a href="#skills">スキル</a></li>
-                <li><a href="#projects">プロジェクト</a></li>
-                <li><a href="#contact">お問い合わせ</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Koga Seiya</h1>
-            <p class="hero-subtitle">フロントエンド開発者</p>
-            <p class="hero-description">
-                美しいWebサイトとユーザーエクスペリエンスの創造に情熱を注いでいます。
-            </p>
-            <button class="cta-button" onclick="scrollToSection('projects')">
-                プロジェクトを見る
-            </button>
-        </div>
-        <div class="hero-visual">
-            <div class="geometric-shape"></div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">プロフィール</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        5年以上のWeb開発経験を持つフロントエンド開発者です。
-                        ユーザー中心のデザインと最新技術を組み合わせて、
-                        使いやすく美しいWebアプリケーションを作成しています。
-                    </p>
-                    <p>
-                        常に新しい技術を学び、クリエイティブなソリューションを
-                        提供することに情熱を持っています。
-                    </p>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Koga Seiya</h1>
                 </div>
-                <div class="about-image">
-                    <div class="profile-placeholder">
-                        <span>写真</span>
+                <ul class="nav-menu">
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#about">自己紹介</a></li>
+                    <li><a href="#skills">スキル</a></li>
+                    <li><a href="#certifications">資格</a></li>
+                    <li><a href="#projects">プロジェクト</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>IT技術者として成長を続けています</h2>
+                <p>基本情報技術者とITパスポートの資格を取得し、<br>様々なプログラミング言語を学習してきました。</p>
+                <a href="#about" class="cta-button">詳しく見る</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>自己紹介</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>IT分野に強い興味を持ち、システム開発からWebアプリケーション開発まで幅広く学習しています。基本情報技術者とITパスポートの資格を取得し、理論と実践の両面から技術力を磨いています。</p>
+                        <p>学校では複数のプログラミング言語を学び、それぞれの特性を活かした開発に取り組んでいます。今後もさらなるスキルアップを目指して学習を続けていきます。</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">スキル</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>フロントエンド</h3>
-                    <ul>
-                        <li>HTML5 / CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React / Vue.js</li>
-                        <li>TypeScript</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>デザイン</h3>
-                    <ul>
-                        <li>UI/UX デザイン</li>
-                        <li>Adobe Creative Suite</li>
-                        <li>Figma</li>
-                        <li>レスポンシブデザイン</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>ツール</h3>
-                    <ul>
-                        <li>Git / GitHub</li>
-                        <li>Webpack / Vite</li>
-                        <li>Docker</li>
-                        <li>CI/CD</li>
-                    </ul>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>学習したスキル</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>フロントエンド</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>バックエンド</h3>
+                        <ul>
+                            <li>PHP</li>
+                            <li>Python</li>
+                            <li>C言語</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>データベース</h3>
+                        <ul>
+                            <li>SQL</li>
+                            <li>データベース設計</li>
+                            <li>クエリ最適化</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">プロジェクト</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">プロジェクト1</div>
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2>取得資格</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">📊</div>
+                        <h3>基本情報技術者</h3>
+                        <p>情報処理技術者試験の基本的な資格。プログラミング、システム設計、データベース、ネットワークなどの幅広い知識を習得。</p>
                     </div>
-                    <div class="project-content">
-                        <h3>Eコマースサイト</h3>
-                        <p>React と Node.js を使用した現代的なEコマースプラットフォーム</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">デモ</a>
-                            <a href="#" class="project-link">GitHub</a>
+                    <div class="cert-card">
+                        <div class="cert-icon">💼</div>
+                        <h3>ITパスポート</h3>
+                        <p>ITを活用するすべての社会人・学生が備えておくべき基礎的な知識を証明する国家試験。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>学習プロジェクト</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Webアプリケーション開発</h3>
+                        <p>HTML、CSS、JavaScript、PHPを使用したWebアプリケーションの開発練習。</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">プロジェクト2</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>タスク管理アプリ</h3>
-                        <p>Vue.js とFirebaseを使用したリアルタイムタスク管理システム</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">デモ</a>
-                            <a href="#" class="project-link">GitHub</a>
+                    <div class="project-card">
+                        <h3>データベース連携システム</h3>
+                        <p>SQLを使用したデータベース操作とPythonでのデータ処理システム。</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQL</span>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">プロジェクト3</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>ポートフォリオサイト</h3>
-                        <p>レスポンシブデザインとモダンなアニメーションを特徴とするポートフォリオ</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">デモ</a>
-                            <a href="#" class="project-link">GitHub</a>
+                    <div class="project-card">
+                        <h3>C言語プログラミング</h3>
+                        <p>基本的なアルゴリズムとデータ構造の実装練習。</p>
+                        <div class="project-tech">
+                            <span>C言語</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">お問い合わせ</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>連絡先</h3>
-                    <p>Email: tanaka@example.com</p>
-                    <p>電話: 090-1234-5678</p>
-                    <p>住所: 東京都渋谷区</p>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>お問い合わせ</h2>
+                <div class="contact-content">
+                    <p>ご質問やご相談がございましたら、お気軽にお問い合わせください。</p>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">メッセージ</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">送信</button>
+                        </form>
+                    </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">お名前</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">メールアドレス</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">メッセージ</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">送信</button>
-                </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p>&copy; 2025 田中太郎. All rights reserved.</p>
+            <p>&copy; Koga Seiya</p>
         </div>
     </footer>
 
